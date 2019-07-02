@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- Main Box -->
+    <div id="mainbox">
+        <form>
+           <input type="text" name = "name" placeholder="Adınızı daxil edin">
+            <br>
+            <br>
+            <input type="text" name = "lastName" placeholder="Soyadlnızı daxil edin"> 
+            <br>
+            <br>
+            <input type="email" name = "email" placeholder="E-mail daxil edin">
+            <br>
+            <br>
+            <select id = "city" placeholder="Şəhərinizi daxil edin">
+            <option value="0">Şəhəri seçin</option>
+            <option value="1">Bakı</option>
+            <option value="2">Sumqayıt</option>
+            <option value="3">Gəncə</option>
+            </select>
+            <br>
+            <br>
+            <input id="registerList" type="button" value="Qeydiyyata al"/>
+            <br>
+            <br>
+            <input id="saveList" type="button" value="Yadda saxla"/>
+        </form>
+    </div>
+
+
+    <!-- Table Div -->
+    <div id="tableDiv">
+        <table>
+            <thead>
+                <tr>
+                    <th>Ad</th>
+                    <th>Soyad</th>
+                    <th>E-mail</th>
+                    <th>Şəhər</th>
+                    <th>Sil</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(153, 0, 255);
+}
+
+#mainbox{
+    width:450px;
+    padding:25px;
+    border:3px solid rgb(0, 255, 255);
+    background: rgb(245, 105, 105);
+    border-radius: 5px;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%)
+}
+
+#mainbox form{
+    text-align: center;
+}
+
+#mainbox form input,select{
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+#mainbox form input[type="button"]{
+    padding: 10px 40px;
+    border-radius: 3px;
+    background-color: rgb(49, 241, 49);
+    border-color: rgb(49, 241, 49);
+    color:white;
+    font-size: 1.3em
+}
+
+#mainbox form #saveList {
+    padding: 10px 30px;
+    border-radius: 3px;
+    background-color: rgb(7, 73, 255);
+    border-color: rgb(7, 73, 255);
+    color:white;
+    font-size: 1.3em
+}
+
+
+table,thead,tr,td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+table{
+    width: 100%;
+    margin-top:30px;
+}
+
+table th{
+    padding: 10px;
+    color: white;
+}
+table td{
+   text-align: center;
+   color: white;
+   font-weight: bold;
+}
